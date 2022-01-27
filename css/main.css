@@ -224,7 +224,7 @@ input.input100 {
   font-family: BeVietnamPro-Bold;
   font-size: 25px;
   /*color: #999999;*/
-  color: #494E69;
+  color: #C8ADA7;
   line-height: 1.2;
 }
 
@@ -361,14 +361,14 @@ input.input100 {
 /*---------------------------------------------*/
 /* Custom CSS  */
 
-.wsize1 > p > span {
-  color: #C8ADA7;
-}
-
-.wsize1 > p > span.spec {
+.wsize1 > .txt-center > p > span.spec {
   text-decoration: underline;
   text-decoration-color: #C8ADA7;
   color: inherit;
+}
+
+.size1 > .wsize1 {
+  min-height: 75vh;
 }
 
 
@@ -427,7 +427,7 @@ input.input100 {
 
   /*---------------------------------------------*/
   /* Custom  */
-  .wsize1 > p {
+  .wsize1 > .txt-center > p {
     width: 50%;
     margin: auto;
     padding: 0px 20px;
@@ -461,7 +461,7 @@ input.input100 {
 
   .w-full-md {width: 100%;}
   /*---------------------------------------------*/
-  .wsize1 > p {
+  .wsize1 > .txt-center > p {
     width: 70%;
     margin: auto;
     padding: 0px 20px;
@@ -495,16 +495,13 @@ input.input100 {
   .respon1 {
     padding-top: 80px;
   }
-  .wsize1 > p {
-    width: 70%;
+  .wsize1 > .txt-center > p {
+    width: 100%;
     margin: auto;
-    padding: 0px 30px;
-    font-size: 18px;
+    padding: 0px 20px;
+    font-size: 16px;
   }
 
-  .how-btn {
-    padding: 25px 10px;
-  }
 
   form {
     display: inline-block;
