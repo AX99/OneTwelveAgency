@@ -504,7 +504,7 @@ input.input100 {
 
 
   form {
-    display: inline-block;
+    display: inline-block !important;
     text-align-last: center;
     text-align: -webkit-center;
     padding-top: 30px !important;
