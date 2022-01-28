@@ -401,6 +401,7 @@ input.input100 {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
+  border-radius: 25px;
   width: 80%;
   overflow-x:auto;
   align-content: center;
@@ -565,6 +566,7 @@ input.input100 {
   }
   #form-popup {
     width: auto;
+    border-radius: 15px;
   }
 
   .optionalParent{
