@@ -595,8 +595,8 @@ input.input100 {
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
   
-  .brandingLogo {
-    justify-self: center;
+  #mc-embedded-subscribe, #mc_embed_signup .brandingLogo {
+    justify-self: center !important;
   }
 
 
