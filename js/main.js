@@ -4,22 +4,15 @@ $(document).ready( function() {
     var open = $('.validate-form button');
     var span = $('.close')
 
+    span.click(function(){
+        modal.hide()
+    })
+    
     open.click(function(e){
         e.preventDefault()
         modal.show();
         $('#mce-EMAIL').val(input.val())
     })
-
-    span.click(function(){
-        $(modal).hide()
-    })
-
-    if ($(modal).is(":visible")){
-        $('#modal :not(.form-popup)').click(function() {
-        $(modal).toggle();
-     });
-    }
-    
     
     
 
