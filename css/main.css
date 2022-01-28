@@ -192,14 +192,14 @@ input.input100 {
 .s1-txt1 {
   font-family: BeVietnamPro-Regular;
   font-size: 14px;
-  color: #fff;
+  color: #C8ADA7;
   line-height: 1;
 }
 
 .s1-txt2 {
   font-family: BeVietnamPro-Regular;
   font-size: 15px;
-  color: #21223B;
+  color: #C8ADA7;
   line-height: 1.4;
 }
 
@@ -212,8 +212,8 @@ input.input100 {
 
 .s1-txt4 {
   font-family: BeVietnamPro-Regular;
-  font-size: 14px;
-  color: #999999;
+  font-size: 25px;
+  color: #C8ADA7;
   line-height: 1.5;
 }
 
@@ -237,7 +237,7 @@ input.input100 {
   font-family: BeVietnamPro-Medium;
   font-size: 40px;
   line-height: 1;
-  color: #fff;
+  color: #C8ADA7;
 }
 
 
@@ -371,7 +371,14 @@ input.input100 {
   min-height: 75vh;
 }
 
-
+.hide-large{
+  display: none;
+  padding: 0;
+}
+.hide-small {
+  display: inherit;
+  padding: 0;
+}
 
 /*==================================================================
   RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
@@ -436,6 +443,7 @@ input.input100 {
   .wrappic1 {
     padding-bottom: 20px;
   }
+
 
 }
 
@@ -509,6 +517,12 @@ input.input100 {
     text-align: -webkit-center;
     padding-top: 30px !important;
   }
+  .hide-large{
+    display: inherit;
+  }
+  .hide-small {
+    display: none;
+  }
 }
 
 
@@ -533,6 +547,7 @@ input.input100 {
 
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
+  
 
 }
 /*//////////////////////////////////////////////////////////////////
