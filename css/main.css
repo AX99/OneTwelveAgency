@@ -595,7 +595,7 @@ input.input100 {
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
   
-  .brandingLogo img {
+  .brandingLogo {
     justify-self: center;
   }
 
