@@ -333,12 +333,12 @@ input.input100 {
 /*---------------------------------------------*/
 .how-btn {
   padding: 0 20px;
-  background-color: #21223B;
+  background-color: #21223B !important;
   border-radius: 5px;
 }
 
 .how-btn:hover {
-  background-color:  #998C98;
+  background-color:  #998C98 !important;
 }
 
 
@@ -378,6 +378,46 @@ input.input100 {
 .hide-small {
   display: inherit;
   padding: 0;
+}
+
+#modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 25vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+#form-popup {
+  background-color: #fefefe;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  overflow-x:auto;
+  align-content: center;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*==================================================================
@@ -523,6 +563,13 @@ input.input100 {
   .hide-small {
     display: none;
   }
+  #form-popup {
+    width: auto;
+  }
+
+  .optionalParent{
+    margin-top: 10px;
+  }
 }
 
 
@@ -548,6 +595,10 @@ input.input100 {
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
   
+  .brandingLogo img {
+    justify-self: center;
+  }
+
 
 }
 /*//////////////////////////////////////////////////////////////////
