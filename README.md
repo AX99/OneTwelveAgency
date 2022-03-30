@@ -5,4 +5,4 @@
 Page uses:
 - Mailchimp subscription form
 
-[Visit here](https://ax99.github.io/OTA)
+[Visit here](https://onetwelveagency.com)
